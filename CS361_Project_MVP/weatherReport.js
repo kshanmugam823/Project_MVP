@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', bindButtons);
 function bindButtons() {
 	document.getElementById('getWeather').addEventListener('click', function(event){
 		var req = new XMLHttpRequest();
-		var appID = "&appid=a5c2f060cf8fc1a36418122f16cda73f";          //My API key when I signed up for an account
+		var appID = "&appid=7078299be27ee986f92f04a37191b0f3";          //My API key when I signed up for an account
 		var zip = document.getElementById("zip").value;
         var city = document.getElementById("city").value;
         var payload;
